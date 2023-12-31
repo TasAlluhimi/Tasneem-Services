@@ -14,9 +14,11 @@
 
 <!-- nav  -->
 <nav class="flex flex-wrap items-center p-3 justify-between mx-5">
-    <div class="lg:text-3xl md:text-2xl max-md:text-2xl max-sm:text-xl text-white">
-        Tasneem Services
-    </div>
+    <a href="index.html">
+        <div class="lg:text-3xl md:text-2xl max-md:text-2xl max-sm:text-xl text-white">
+            Tasneem Services
+        </div>
+    </a>
     <div class="flex md:hidden">
         <button id="hamburger">
           <img class="toggle block w-10" src="/assets/img/menu.svg" />
@@ -30,11 +32,11 @@
             class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 
             border-white md:border-none">Home
         </a>
-        <a href="About.html"
+        <a href="#AboutUs"
             class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 
             border-white md:border-none">About
         </a>
-        <a href="#"
+        <a href="#ContactUs"
             class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 
             border-white md:border-none">Contact Us
         </a>
@@ -65,7 +67,7 @@
         <div class="h-32 md:h-40"></div>
 
         <!-- about us -->
-        <div>
+        <div id="AboutUs">
             <div class="sm:flex max-sm:flex-col justify-center items-center max-w-screen-xl">
                 <div class='w-full'>
                     <div class="image object-center text-center w-full
@@ -91,9 +93,13 @@
                                 To learn more about our services.
                             </div>
                             <div>
-                                <button class="shadow__btn lg:mt-4 max-sm:p-4 max-md:p-5 md:p-4 lg:p-4 mt-3 self-center">
+                                <a href="Services.html">
+                                    <button 
+                                class="shadow__btn lg:mt-4 max-sm:p-4 max-md:p-5 md:p-4 lg:p-4 mt-3 self-center">
                                     Click Here
                                 </button>
+                                </a>
+                                
                             </div>
                             <div>
 
@@ -106,7 +112,7 @@
       
         <div class="h-40"></div>
 
-        <div class="h-screen w-full">
+        <div class="h-screen w-full" id="ContactUs">
             <div class="pt-1 md:pt-20 w-full">
                 <div class="p-4 md:p-8 w-full">
                     <h1 class="text-white text-center pb-8 font-light text-3xl md:text-5xl lg:text-6xl w-full">Contact Us</h1>
